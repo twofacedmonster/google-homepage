@@ -7,10 +7,10 @@
    body, input, button {
     font-size: 14px;
     font-family: arial, sans-serif;
-    font-weight:lighter;
+    font-weight: lighter;
     color: #222;
    }
-  #head ul {
+  .head ul {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -30,7 +30,7 @@
   li a:hover {
     text-decoration: underline
   }
-  #right {
+  .right {
     font-size: 12px;
   }
   .apps {
@@ -128,7 +128,7 @@
   footer a {
     color: #808080;
   }
-  #foot ul {
+  .foot ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -146,15 +146,15 @@
     #foot > li {
       flex-basis: 50%
     }
-    #leftfoot {
+    .leftfoot {
       order: 1;
       width: 100%;
     }
-    #rightfoot {
+    .rightfoot {
       order: 2;
       width: 100%;
     }
-    #centerfoot {
+    .centerfoot {
       order: 0;
       width: 100%;
     }
